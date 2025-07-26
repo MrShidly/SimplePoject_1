@@ -1,0 +1,64 @@
+body {
+  background-color: pink;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  text-align: center;
+  padding: 40px;
+}
+h1 {
+  font-size: 42px;
+  color: blueviolet;
+}
+header img {
+  max-width: 15%;
+  height: auto;
+}
+main {
+  color: rgb(240, 236, 240);
+  background-color: rgb(122, 74, 218);
+  padding: 50px;
+  border-radius: 10px;
+  width: 600px;
+  margin: 32px auto;
+  box-shadow: 5px 5px 15px rgba(5, 5, 5, 0.5);
+}
+a {
+  text-decoration: dashed;
+  color: rgb(122, 74, 218);
+  background-color: rgb(176, 189, 59);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+  background-color: rgb(192, 224, 101);
+  /* rgb(122, 101, 195) */
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 14px 0px;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  margin-top: 30px;
+  color: rgb(129, 84, 219);
+  margin-bottom: 100px;
+}
+footer a {
+  border: 0.2px solid black;
+  box-shadow: 0.5px 0.5px 0.5px rgba(27, 22, 22, 0.5);
+}
+.extra-important {
+  color: rgb(240, 240, 62);
+  border-color: rgb(31, 147, 210);
+}
